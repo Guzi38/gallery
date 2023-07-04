@@ -1,0 +1,81 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'title.photo_details'|trans({'%id%': photo.id|default('')}) }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ 'title.photo_details'|trans({'%id%': photo.id|default('')}) }}</h1>
+    {% if photo is defined and photo|length %}
+        <dl class="dl-horizontal">
+            <dt>{{ 'label.id'|trans }}</dt>
+            <dd>{{ photo.id }}</dd>
+            <dt>{{ 'label.date'|trans }}</dt>
+            <dd>{{ photo.createdAt|date('d/m/Y') }}</dd>
+            <dt>{{ 'label.title'|trans }}</dt>
+            <dd>{{  photo.title }}</dd>
+            <dt>{{ 'label.content'|trans }}</dt>
+            <dd>{{  photo.content }}</dd>
+            <dt>{{ 'label.gallery'|trans }}</dt>
+            <dd>
+                <a href="{{ url('gallery_show', {id: photo.gallery.id}) }}" title="{{ 'gallery_show'|trans }}">
+                    {{ photo.gallery.title }}
+                </a>
+            </dd>
+            <dt>{{ 'label.tags'|trans }}</dt>
+            <dd>
+                {% for tag in photo.tags %}
+                    <a href="{{ url('tag_show', {id: tag.id}) }}" title="{{ 'tag_show'|trans }}">
+                        {{ tag.title }}{{ ',' }}
+                    </a>
+                {% endfor %}
+            </dd>
+        </dl>
+        <br>
+
+        <img id="photo" src="{{ asset('uploads/photos/'~ photo.filename) }}">
+
+        <h4>
+            {{ 'label_comments'|trans }}
+        </h4>
+        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+            <p>
+                <a href="{{ url('comment_create', {id: photo.id}) }}" title="{{ 'action.create'|trans }}">
+                    {{ 'action.create'|trans }}
+                </a>
+
+            </p>
+        {% endif %}
+        <table class="table table-striped">
+            <tbody>
+            {% for comment in photo.comments %}
+                <tr>
+
+                    <td>{{ comment.date|date('d/m/Y') }}</td>
+                    <td>{{ comment.content }}</td>
+                    <td>{{ comment.author.login }}</td>
+                    {% if is_granted('IS_AUTHENTICATED_FULLY') and 'ROLE_ADMIN' in app.user.roles %}
+                        <td><a href="{{ url('comment_delete', {id: comment.id}) }}" title="{{ 'action.delete'|trans }}">
+                                {{ 'action.delete'|trans }}
+                            </a></td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <p>
+            {% if app.user.photo.filename is defined and app.user.photo.filename|length %}
+                <img class="nav-profile-img" src="{{ asset(photos_directory~app.user.photo.filename) }}">
+            {% endif %}
+        </p>
+        <p>
+            <a href="{{ url('photo_index') }}" title="{{ 'action.back_to_list'|trans }}">
+                {{ 'action.back_to_list'|trans }}
+            </a>
+        </p>
+    {% else %}
+        <p>
+            {{ 'message.record_not_found'|trans }}
+        </p>
+    {% endif %}
+{% endblock %}

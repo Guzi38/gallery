@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'tag_details'|trans({'%id%': tag.id|default('')}) }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ 'tag_details'|trans({'%id%': tag.id|default('')}) }}</h1>
+    {% if tag is defined and tag|length %}
+        <dl class="dl-horizontal">
+            <dt>{{ 'Id'|trans }}</dt>
+            <dd>{{ tag.id }}</dd>
+            <dt>{{ 'Created_at'|trans }}</dt>
+            <dd>{{ tag.createdAt|format_date('long') }}</dd>
+            <dt>{{ 'Updated_at'|trans }}</dt>
+            <dd>{{ tag.updatedAt|format_date('long') }}</dd>
+            <dt>{{ 'Title'|trans }}</dt>
+            <dd>{{  tag.title }}</dd>
+        </dl>
+        <p>
+            <a href="{{ url('tag_index') }}" title="{{ 'action.back_to_tags'|trans }}" class="{{ 'btn btn-light' }}">
+                {{ 'action.back_to_tags'|trans }}
+            </a>
+        </p>
+    {% else %}
+        <p>
+            {{ 'message.tag_not_found'|trans }}
+        </p>
+    {% endif %}
+{% endblock %}

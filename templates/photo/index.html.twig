@@ -1,0 +1,79 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'photo_id'|trans }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ 'photo_id'|trans }}</h1>
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        <p>
+            <a href="{{ url('photo_create') }}" title="{{ 'action.create'|trans }}" class="btn">
+                {{ 'action.create'|trans }}
+            </a>
+        </p>
+    {% endif %}
+    {% if pagination is defined and pagination.items|length %}
+
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th scope="col">{{ knp_pagination_sortable(pagination, 'id'|trans, 'photo.id') }}</th>
+                <th scope="col">{{ knp_pagination_sortable(pagination, 'publication_date'|trans, 'photo.createdAt') }}</th>
+                <th scope="col">{{ knp_pagination_sortable(pagination, 'photo_title'|trans, 'photo.title') }}</th>
+                <th scope="col">{{ 'galeries'|trans }}</th>
+                <th scope="col">{{ 'show_tags'|trans }}</th>
+                <th scope="col">{{ 'show_actions'|trans }}</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for photo in pagination.items %}
+                <tr>
+                    <td>{{ photo.id }}</td>
+                    <td>{{ photo.createdAt|date('d/m/Y') }}</td>
+                    <td>{{ photo.title }}</td>
+                    <td>
+                        <a href="{{ url('photo_index', {'filters.gallery_id' : photo.gallery.id}) }}" title="{{ photo.gallery.title }}">
+                            {{ photo.gallery.title }}
+                        </a>
+                    </td>
+                    <td>
+                        {% if photo.tags is defined and photo.tags|length %}
+                            {% for tag in photo.tags %}
+                                <a href="{{ url('photo_index', {'filters.tag_id' : tag.id}) }}" title="{{ tag.title }}">
+                                    {{ tag.title }}
+                                </a>
+                            {% endfor %}
+                        {% else %}
+                            {{ 'lack_of'|trans }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a href="{{ url('photo_show', {id: photo.id}) }}" title="{{ 'action.view'|trans }}" class="btn">
+                            {{ 'show_me'|trans }}
+                        </a>
+                        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                            <a href="{{ url('photo_edit', {id: photo.id}) }}" title="{{ 'action.edit'|trans }}" class="btn">
+                                {{ 'do_edit'|trans }}
+                            </a>
+                            <a href="{{ url('photo_delete', {id: photo.id}) }}" title="{{ 'action.delete'|trans }}" class="btn">
+                                {{ 'do_delete'|trans }}
+                            </a>
+                        {% endif %}
+                    </td>
+
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <div class="navigation text-center">
+            {{ knp_pagination_render(pagination) }}
+        </div>
+
+    {% else %}
+        <p>
+            {{ 'message.empty_list'|trans }}
+        </p>
+    {% endif %}
+{% endblock %}

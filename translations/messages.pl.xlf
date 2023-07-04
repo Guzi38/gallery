@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="user_details">
+                <source>user_details</source>
+                <target>Szczegóły użytkownika</target>
+            </trans-unit>
+            <trans-unit id="accounts">
+                <source>accounts</source>
+                <target>Konta</target>
+            </trans-unit>
+            <trans-unit id="back_from_register">
+                <source>back_from_register</source>
+                <target>powrót</target>
+            </trans-unit>
+            <trans-unit id="user.password">
+                <source>user.password</source>
+                <target>Hasło</target>
+            </trans-unit>
+            <trans-unit id="app_login">
+                <source>app_login</source>
+                <target>Logowanie</target>
+            </trans-unit>
+            <trans-unit id="photos_comments">
+                <source>photos_comments</source>
+                <target>Komentarze do zdjęć</target>
+            </trans-unit>
+            <trans-unit id="delete_a_tag">
+                <source>delete_a_tag</source>
+                <target>Usuń tag</target>
+            </trans-unit>
+            <trans-unit id="edit_a_tag">
+                <source>edit_a_tag</source>
+                <target>Edytuj tag</target>
+            </trans-unit>
+            <trans-unit id="delete_a_photo">
+                <source>delete_a_photo</source>
+                <target>Usuń zdjęcie</target>
+            </trans-unit>
+            <trans-unit id="tag_show">
+                <source>tag_show</source>
+                <target>tag</target>
+            </trans-unit>
+            <trans-unit id="gallery_show">
+                <source>gallery_show</source>
+                <target>galeria</target>
+            </trans-unit>
+            <trans-unit id="create_a_tag">
+                <source>create_a_tag</source>
+                <target>Stwórz tag</target>
+            </trans-unit>
+            <trans-unit id="tags_page">
+                <source>tags_page</source>
+                <target>Tagi</target>
+            </trans-unit>
+            <trans-unit id="delete_a_gallery">
+                <source>delete_a_gallery</source>
+                <target>Usuń galerię</target>
+            </trans-unit>
+            <trans-unit id="back_to_the_gallery">
+                <source>back_to_the_gallery</source>
+                <target>powrót</target>
+            </trans-unit>
+            <trans-unit id="gallery_details">
+                <source>gallery_details</source>
+                <target>Szczegóły galerii</target>
+            </trans-unit>
+            <trans-unit id="edit_a_gallery">
+                <source>edit_a_gallery</source>
+                <target>Edytuj galerię</target>
+            </trans-unit>
+            <trans-unit id="show_galleries">
+                <source>show_galleries</source>
+                <target>Galerie</target>
+            </trans-unit>
+            <trans-unit id="make_a_comment">
+                <source>make_a_comment</source>
+                <target>Napisz komentarz</target>
+            </trans-unit>
+            <trans-unit id="back_to_previous_page">
+                <source>back_to_previous_page</source>
+                <target>powrót</target>
+            </trans-unit>
+            <trans-unit id="create_gallery">
+                <source>create_gallery</source>
+                <target>Stwórz Galerie</target>
+            </trans-unit>
+            <trans-unit id="save_index">
+                <source>save_index</source>
+                <target>zapisz</target>
+            </trans-unit>
+            <trans-unit id="post_photo">
+                <source>post_photo</source>
+                <target>Opublikuj zdjęcie</target>
+            </trans-unit>
+            <trans-unit id="lack_of">
+                <source>lack_of</source>
+                <target>brak</target>
+            </trans-unit>
+            <trans-unit id="do_delete">
+                <source>do_delete</source>
+                <target>usuń</target>
+            </trans-unit>
+            <trans-unit id="do_edit">
+                <source>do_edit</source>
+                <target>edytuj</target>
+            </trans-unit>
+            <trans-unit id="show_me">
+                <source>show_me</source>
+                <target>zobacz</target>
+            </trans-unit>
+            <trans-unit id="show_actions">
+                <source>show_actions</source>
+                <target>akcje</target>
+            </trans-unit>
+            <trans-unit id="show_tags">
+                <source>show_tags</source>
+                <target>tagi</target>
+            </trans-unit>
+            <trans-unit id="galeries">
+                <source>galeries</source>
+                <target>galerie</target>
+            </trans-unit>
+            <trans-unit id="photo_title">
+                <source>photo_title</source>
+                <target>tytuł</target>
+            </trans-unit>
+            <trans-unit id="publication_date">
+                <source>publication_date</source>
+                <target>data publikacji</target>
+            </trans-unit>
+            <trans-unit id="action.view">
+                <source>action.view</source>
+                <target>Zobacz</target>
+            </trans-unit>
+            <trans-unit id="account_id">
+                <source>account_id</source>
+                <target>Konto</target>
+            </trans-unit>
+            <trans-unit id="photo_id">
+                <source>photo_id</source>
+                <target>Zdjęcia</target>
+            </trans-unit>
+            <trans-unit id="label_tags">
+                <source>label_tags</source>
+                <target>Tag</target>
+            </trans-unit>
+            <trans-unit id="label_title">
+                <source>label_title</source>
+                <target>Tytuł</target>
+            </trans-unit>
+            <trans-unit id="action.save">
+                <source>action.save</source>
+                <target>Zapisz</target>
+            </trans-unit>
+            <trans-unit id="action.back_to_list">
+                <source>action.back_to_list</source>
+                <target>Wróć</target>
+            </trans-unit>
+            <trans-unit id="label_comments">
+                <source>label_comments</source>
+                <target>Sekcja komentarzy</target>
+            </trans-unit>
+            <trans-unit id="label.date">
+                <source>label.date</source>
+                <target>Data publikacji</target>
+            </trans-unit>
+            <trans-unit id="label.id">
+                <source>label.id</source>
+                <target>Numer zdjęcia</target>
+            </trans-unit>
+            <trans-unit id="title.photo_details">
+                <source>title.photo_details</source>
+                <target>Szczegóły zdjęcia</target>
+            </trans-unit>
+            <trans-unit id="label.title">
+                <source>label.title</source>
+                <target>Nazwa</target>
+            </trans-unit>
+            <trans-unit id="label.photo">
+                <source>label.photo</source>
+                <target>Plik zdjęciowy</target>
+            </trans-unit>
+            <trans-unit id="label.content">
+                <source>label.content</source>
+                <target>Opis zdjęcia</target>
+            </trans-unit>
+            <trans-unit id="label.tags">
+                <source>label.tags</source>
+                <target>Tagi</target>
+            </trans-unit>
+            <trans-unit id="label.gallery">
+                <source>label.gallery</source>
+                <target>Galerie</target>
+            </trans-unit>
+            <trans-unit id="actions">
+                <source>Actions</source>
+                <target>Akcje</target>
+            </trans-unit>
+            <trans-unit id="back to photos">
+                <source>back to photos</source>
+                <target>powrót</target>
+            </trans-unit>
+            <trans-unit id="Password">
+                <source>Password</source>
+                <target>Hasło</target>
+            </trans-unit>
+            <trans-unit id="id">
+                <source>id</source>
+                <target>Id</target>
+            </trans-unit>
+            <trans-unit id="title">
+                <source>Title</source>
+                <target>Tytuł</target>
+            </trans-unit>
+            <trans-unit id="Content">
+                <source>Content</source>
+                <target>Treść</target>
+            </trans-unit>
+            <trans-unit id="Author">
+                <source>Author</source>
+                <target>Autor</target>
+            </trans-unit>
+            <trans-unit id="Gallery">
+                <source>Gallery</source>
+                <target>Galeria</target>
+            </trans-unit>
+            <trans-unit id="Created_at">
+                <source>Created_at</source>
+                <target>Utworzono</target>
+            </trans-unit>
+            <trans-unit id="Updated_at">
+                <source>Updated_at</source>
+                <target>Zmodyfikowano</target>
+            </trans-unit>
+            <trans-unit id="Photo title">
+                <source>Photo title</source>
+                <target>Tytuł zdjecia</target>
+            </trans-unit>
+            <trans-unit id="tags">
+                <source>Tag</source>
+                <target>Tagi</target>
+            </trans-unit>
+            <trans-unit id="message.empty_list">
+                <source>message.empty_list</source>
+                <target>Lista jest pusta</target>
+            </trans-unit>
+            <trans-unit id="message.record_not_found">
+                <source>message.record_not_found</source>
+                <target>Zdjecie nie zostało znalezione</target>
+            </trans-unit>
+            <trans-unit id="action.show">
+                <source>action.show</source>
+                <target>zobacz</target>
+            </trans-unit>
+            <trans-unit id="action.create">
+                <source>action.create</source>
+                <target>Opublikuj</target>
+            </trans-unit>
+            <trans-unit id="Id">
+                <source>Id</source>
+                <target>Id</target>
+            </trans-unit>
+            <trans-unit id="action.edit">
+                <source>action.edit</source>
+                <target>edytuj</target>
+            </trans-unit>
+            <trans-unit id="action.delete">
+                <source>action.delete</source>
+                <target>usuń</target>
+            </trans-unit>
+            <trans-unit id="add comment">
+                <source>add comment</source>
+                <target>dodaj komentarz</target>
+            </trans-unit>
+            <trans-unit id="Email">
+                <source>Email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="Account">
+                <source>Account</source>
+                <target>Konto</target>
+            </trans-unit>
+            <trans-unit id="create a tag">
+                <source>create a tag</source>
+                <target>stwórz tag</target>
+            </trans-unit>
+            <trans-unit id="message.created_successfully">
+                <source>message.created_successfully</source>
+                <target>utworzono pomyślnie</target>
+            </trans-unit>
+            <trans-unit id="message.gallery_contains_photos">
+                <source>message.gallery_contains_photos</source>
+                <target>galeria jest przypisana do zdjecia</target>
+            </trans-unit>
+            <trans-unit id="message.deleted_successfully">
+                <source>message.deleted_successfully</source>
+                <target>usunięto pomyślnie</target>
+            </trans-unit>
+            <trans-unit id="message.edited_successfully">
+                <source>message.edited_successfully</source>
+                <target>edycja przebiegła pomyślnie</target>
+            </trans-unit>
+            <trans-unit id="message.tag_not_found">
+                <source>message.tag_not_found</source>
+                <target>tag nie został znaleziony</target>
+            </trans-unit>
+            <trans-unit id="Create a gallery">
+                <source>Create a gallery</source>
+                <target>Stwórz galerie</target>
+            </trans-unit>
+            <trans-unit id="Delete gallery">
+                <source>Delete gallery</source>
+                <target>Usuń galerie</target>
+            </trans-unit>
+            <trans-unit id="Edit gallery">
+                <source>Edit gallery</source>
+                <target>Edycja galerii</target>
+            </trans-unit>
+            <trans-unit id="gallery details">
+                <source>gallery details</source>
+                <target>szczegóły galerii</target>
+            </trans-unit>
+            <trans-unit id="Gallery details">
+                <source>gallery details</source>
+                <target>Szczegóły galerii</target>
+            </trans-unit>
+            <trans-unit id="action.back_to_galleries">
+                <source>action.back_to_galleries</source>
+                <target>powrót do galerii</target>
+            </trans-unit>
+            <trans-unit id="Create a comment">
+                <source>Create a comment</source>
+                <target>Stwórz komentarz</target>
+            </trans-unit>
+            <trans-unit id="Delete_a_comment">
+                <source>Delete_a_comment</source>
+                <target>Usuń komentarz</target>
+            </trans-unit>
+            <trans-unit id="Edit_a_comment">
+                <source>Edit_a_comment</source>
+                <target>Edycja komentarza</target>
+            </trans-unit>
+            <trans-unit id="comment_details">
+                <source>comment_details</source>
+                <target>szczegóły komentarza</target>
+            </trans-unit>
+            <trans-unit id="Comment details">
+                <source>Comment details</source>
+                <target>Szczegóły komentarza</target>
+            </trans-unit>
+            <trans-unit id="action.back_to_comments">
+                <source>action.back_to_comments</source>
+                <target>powrót do komentarzy</target>
+            </trans-unit>
+            <trans-unit id="message.comment_not_found">
+                <source>message.comment_not_found</source>
+                <target>komentarz nie został znaleziony</target>
+            </trans-unit>
+            <trans-unit id="message.form_error">
+                <source>message.form_error</source>
+                <target>błąd w formularzu</target>
+            </trans-unit>
+            <trans-unit id="Create a photo">
+                <source>Create a photo</source>
+                <target>Stwórz zdjęcie</target>
+            </trans-unit>
+            <trans-unit id="Delete photo">
+                <source>Delete photo</source>
+                <target>Usuń zdjęcie</target>
+            </trans-unit>
+            <trans-unit id="Edit photo">
+                <source>Edit photo</source>
+                <target>Edycja zdjęcia</target>
+            </trans-unit>
+            <trans-unit id="photo details">
+                <source>photo details</source>
+                <target>Szczegóły zdjęcia</target>
+            </trans-unit>
+            <trans-unit id="Photos details">
+                <source>Photos details</source>
+                <target>Szczegóły zdjęcia</target>
+            </trans-unit>
+            <trans-unit id="Tags">
+                <source>Tags</source>
+                <target>Tagi</target>
+            </trans-unit>
+            <trans-unit id="action.back_to_photos">
+                <source>action.back_to_photos</source>
+                <target>powrót</target>
+            </trans-unit>
+            <trans-unit id="login">
+                <source>login</source>
+                <target>login</target>
+            </trans-unit>
+            <trans-unit id="back">
+                <source>back</source>
+                <target>powrót</target>
+            </trans-unit>
+            <trans-unit id="register">
+                <source>register</source>
+                <target>Zarejestruj się</target>
+            </trans-unit>
+            <trans-unit id="Register">
+                <source>Register</source>
+                <target>Zarejestruj się</target>
+            </trans-unit>
+            <trans-unit id="Create a tag">
+                <source>Create a tag</source>
+                <target>Stwórz tag</target>
+            </trans-unit>
+            <trans-unit id="Delete a tag">
+                <source>Delete a tag</source>
+                <target>Usuń tag</target>
+            </trans-unit>
+            <trans-unit id="Edit tag">
+                <source>Edit tag</source>
+                <target>Edycja tagu</target>
+            </trans-unit>
+            <trans-unit id="tag_details">
+                <source>tag_details</source>
+                <target>Szczegóły tagu</target>
+            </trans-unit>
+            <trans-unit id="Tag details">
+                <source>Tag details</source>
+                <target>Szczegóły tagu</target>
+            </trans-unit>
+            <trans-unit id="action.back_to_tags">
+                <source>action.back_to_tags</source>
+                <target>powrót do tagów</target>
+            </trans-unit>
+            <trans-unit id="back to tags">
+                <source>back to tags</source>
+                <target>powrót do tagów</target>
+            </trans-unit>
+            <trans-unit id="User details">
+                <source>User details</source>
+                <target>Szczegóły użytkownika</target>
+            </trans-unit>
+            <trans-unit id="none">
+                <source>none</source>
+                <target>brak</target>
+            </trans-unit>
+            <trans-unit id="create a photo">
+                <source>create a photo</source>
+                <target>opublikuj zdjęcie</target>
+            </trans-unit>
+            <trans-unit id="save">
+                <source>save</source>
+                <target>zapisz</target>
+            </trans-unit>
+            <trans-unit id="Delete a galleries">
+                <source>Delete a gallery</source>
+                <target>Usuń galerię</target>
+            </trans-unit>
+            <trans-unit id="delete">
+                <source>delete</source>
+                <target>usuń</target>
+            </trans-unit>
+            <trans-unit id="Edit a gallery">
+                <source>Edit a gallery</source>
+                <target>Edycja galerii</target>
+            </trans-unit>
+            <trans-unit id="create a gallery">
+                <source>create a gallery</source>
+                <target>stwórz galerię</target>
+            </trans-unit>
+            <trans-unit id="edit">
+                <source>edit</source>
+                <target>edycja</target>
+            </trans-unit>
+            <trans-unit id="show">
+                <source>show</source>
+                <target>zobacz</target>
+            </trans-unit>
+            <trans-unit id="back to galleries">
+                <source>back to galleries</source>
+                <target>powrót do galerii</target>
+            </trans-unit>
+            <trans-unit id="Delete a comment">
+                <source>Delete a comment</source>
+                <target>Usuń komentarz</target>
+            </trans-unit>
+            <trans-unit id="Edit a comment">
+                <source>Edit a comment</source>
+                <target>Edycja komentarza</target>
+            </trans-unit>
+            <trans-unit id="Delete a photo">
+                <source>Delete a photo</source>
+                <target>Usuń zdjęcie</target>
+            </trans-unit>
+            <trans-unit id="repeat.password">
+                <source>repeat.password</source>
+                <target>Powtórz hasło</target>
+            </trans-unit>
+            <trans-unit id="Log in">
+                <source>Log in</source>
+                <target>Zaloguj się</target>
+            </trans-unit>
+            <trans-unit id="title.edit_password">
+                <source>title.edit_password</source>
+                <target>Edycja hasła</target>
+            </trans-unit>
+            <trans-unit id="title.user_register">
+                <source>title.user_register</source>
+                <target>Zarejestruj się</target>
+            </trans-unit>
+            <trans-unit id="action.register">
+                <source>action.register</source>
+                <target>Rejestracja</target>
+            </trans-unit>
+            <trans-unit id="action.edit_email">
+                <source>action.edit_email</source>
+                <target>Edycja emaila</target>
+            </trans-unit>
+            <trans-unit id="edit email">
+                <source>edit email</source>
+                <target>edytuj email</target>
+            </trans-unit>
+            <trans-unit id="action.edit_password">
+                <source>action.edit_password</source>
+                <target>Edycja hasła</target>
+            </trans-unit>
+            <trans-unit id="edit password">
+                <source>edit password</source>
+                <target>edytuj hasło</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,6 @@
+{% include 'default/_form.html.twig' with {
+    page_title: 'delete_a_photo'|trans({'%id%': photo.id|default('')}),
+    form: form,
+    submit_label: 'do_delete'|trans,
+    back_to_list_path: 'photo_index',
+} %}
