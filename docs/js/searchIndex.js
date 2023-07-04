@@ -163,7 +163,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Controller\\SecurityController",
             "name": "SecurityController",
-            "summary": "",
+            "summary": "Class\u0020SecurityController.",
             "url": "classes/App-Controller-SecurityController.html"
         },                {
             "fqsen": "\\App\\Controller\\SecurityController\u003A\u003Alogin\u0028\u0029",
@@ -303,7 +303,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\DataFixtures\\AppFixtures",
             "name": "AppFixtures",
-            "summary": "",
+            "summary": "AppFixtures\u0020class.",
             "url": "classes/App-DataFixtures-AppFixtures.html"
         },                {
             "fqsen": "\\App\\DataFixtures\\AppFixtures\u003A\u003Aload\u0028\u0029",
@@ -556,30 +556,30 @@ Search.appendIndex(
             "summary": "Class\u0020Photo.",
             "url": "classes/App-Entity-Photo.html"
         },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AgetUpdatedAt\u0028\u0029",
-            "name": "getUpdatedAt",
-            "summary": "Getter\u0020for\u0020updatedAt.",
-            "url": "classes/App-Entity-Photo.html#method_getUpdatedAt"
-        },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AsetUpdatedAt\u0028\u0029",
-            "name": "setUpdatedAt",
-            "summary": "Setter\u0020for\u0020updatedAt.",
-            "url": "classes/App-Entity-Photo.html#method_setUpdatedAt"
-        },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AgetCreatedAt\u0028\u0029",
-            "name": "getCreatedAt",
-            "summary": "Getter\u0020for\u0020created\u0020at.",
-            "url": "classes/App-Entity-Photo.html#method_getCreatedAt"
-        },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AsetCreatedAt\u0028\u0029",
-            "name": "setCreatedAt",
-            "summary": "Setter\u0020for\u0020created\u0020at.",
-            "url": "classes/App-Entity-Photo.html#method_setCreatedAt"
-        },                {
             "fqsen": "\\App\\Entity\\Photo\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
             "summary": "Constructor.",
             "url": "classes/App-Entity-Photo.html#method___construct"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AaddTag\u0028\u0029",
+            "name": "addTag",
+            "summary": "Add\u0020tag.",
+            "url": "classes/App-Entity-Photo.html#method_addTag"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AremoveTag\u0028\u0029",
+            "name": "removeTag",
+            "summary": "Remove\u0020tag.",
+            "url": "classes/App-Entity-Photo.html#method_removeTag"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AaddComment\u0028\u0029",
+            "name": "addComment",
+            "summary": "Add\u0020comment.",
+            "url": "classes/App-Entity-Photo.html#method_addComment"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AremoveComment\u0028\u0029",
+            "name": "removeComment",
+            "summary": "Remove\u0020comment.",
+            "url": "classes/App-Entity-Photo.html#method_removeComment"
         },                {
             "fqsen": "\\App\\Entity\\Photo\u003A\u003AgetId\u0028\u0029",
             "name": "getId",
@@ -631,30 +631,10 @@ Search.appendIndex(
             "summary": "Getter\u0020for\u0020tags.",
             "url": "classes/App-Entity-Photo.html#method_getTags"
         },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AaddTag\u0028\u0029",
-            "name": "addTag",
-            "summary": "Add\u0020tag.",
-            "url": "classes/App-Entity-Photo.html#method_addTag"
-        },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AremoveTag\u0028\u0029",
-            "name": "removeTag",
-            "summary": "Remove\u0020tag.",
-            "url": "classes/App-Entity-Photo.html#method_removeTag"
-        },                {
             "fqsen": "\\App\\Entity\\Photo\u003A\u003AgetComments\u0028\u0029",
             "name": "getComments",
             "summary": "Getter\u0020for\u0020comment.",
             "url": "classes/App-Entity-Photo.html#method_getComments"
-        },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AaddComment\u0028\u0029",
-            "name": "addComment",
-            "summary": "Add\u0020comment.",
-            "url": "classes/App-Entity-Photo.html#method_addComment"
-        },                {
-            "fqsen": "\\App\\Entity\\Photo\u003A\u003AremoveComment\u0028\u0029",
-            "name": "removeComment",
-            "summary": "Remove\u0020comment.",
-            "url": "classes/App-Entity-Photo.html#method_removeComment"
         },                {
             "fqsen": "\\App\\Entity\\Photo\u003A\u003AsetAuthor\u0028\u0029",
             "name": "setAuthor",
@@ -675,6 +655,26 @@ Search.appendIndex(
             "name": "setFilename",
             "summary": "Setter\u0020for\u0020filename.",
             "url": "classes/App-Entity-Photo.html#method_setFilename"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AgetUpdatedAt\u0028\u0029",
+            "name": "getUpdatedAt",
+            "summary": "Getter\u0020for\u0020updatedAt.",
+            "url": "classes/App-Entity-Photo.html#method_getUpdatedAt"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AsetUpdatedAt\u0028\u0029",
+            "name": "setUpdatedAt",
+            "summary": "Setter\u0020for\u0020updatedAt.",
+            "url": "classes/App-Entity-Photo.html#method_setUpdatedAt"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AgetCreatedAt\u0028\u0029",
+            "name": "getCreatedAt",
+            "summary": "Getter\u0020for\u0020created\u0020at.",
+            "url": "classes/App-Entity-Photo.html#method_getCreatedAt"
+        },                {
+            "fqsen": "\\App\\Entity\\Photo\u003A\u003AsetCreatedAt\u0028\u0029",
+            "name": "setCreatedAt",
+            "summary": "Setter\u0020for\u0020created\u0020at.",
+            "url": "classes/App-Entity-Photo.html#method_setCreatedAt"
         },                {
             "fqsen": "\\App\\Entity\\Photo\u003A\u003A\u0024id",
             "name": "id",
@@ -728,7 +728,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\Tag",
             "name": "Tag",
-            "summary": "",
+            "summary": "Class\u0020Tag.",
             "url": "classes/App-Entity-Tag.html"
         },                {
             "fqsen": "\\App\\Entity\\Tag\u003A\u003AgetId\u0028\u0029",
@@ -808,7 +808,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\App\\Entity\\User",
             "name": "User",
-            "summary": "",
+            "summary": "Class\u0020user.",
             "url": "classes/App-Entity-User.html"
         },                {
             "fqsen": "\\App\\Entity\\User\u003A\u003A__construct\u0028\u0029",
@@ -1126,16 +1126,6 @@ Search.appendIndex(
             "summary": "Constructor.",
             "url": "classes/App-Repository-CommentRepository.html#method___construct"
         },                {
-            "fqsen": "\\App\\Repository\\CommentRepository\u003A\u003AqueryAll\u0028\u0029",
-            "name": "queryAll",
-            "summary": "Query\u0020all\u0020records.",
-            "url": "classes/App-Repository-CommentRepository.html#method_queryAll"
-        },                {
-            "fqsen": "\\App\\Repository\\CommentRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
-            "name": "getOrCreateQueryBuilder",
-            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
-            "url": "classes/App-Repository-CommentRepository.html#method_getOrCreateQueryBuilder"
-        },                {
             "fqsen": "\\App\\Repository\\CommentRepository\u003A\u003Asave\u0028\u0029",
             "name": "save",
             "summary": "Save\u0020entity.",
@@ -1145,6 +1135,16 @@ Search.appendIndex(
             "name": "delete",
             "summary": "Delete\u0020entity.",
             "url": "classes/App-Repository-CommentRepository.html#method_delete"
+        },                {
+            "fqsen": "\\App\\Repository\\CommentRepository\u003A\u003AqueryAll\u0028\u0029",
+            "name": "queryAll",
+            "summary": "Query\u0020all\u0020records.",
+            "url": "classes/App-Repository-CommentRepository.html#method_queryAll"
+        },                {
+            "fqsen": "\\App\\Repository\\CommentRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
+            "name": "getOrCreateQueryBuilder",
+            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
+            "url": "classes/App-Repository-CommentRepository.html#method_getOrCreateQueryBuilder"
         },                {
             "fqsen": "\\App\\Repository\\CommentRepository\u003A\u003APAGINATOR_ITEMS_PER_PAGE",
             "name": "PAGINATOR_ITEMS_PER_PAGE",
@@ -1161,16 +1161,6 @@ Search.appendIndex(
             "summary": "Constructor.",
             "url": "classes/App-Repository-GalleryRepository.html#method___construct"
         },                {
-            "fqsen": "\\App\\Repository\\GalleryRepository\u003A\u003AqueryAll\u0028\u0029",
-            "name": "queryAll",
-            "summary": "Query\u0020all\u0020records.",
-            "url": "classes/App-Repository-GalleryRepository.html#method_queryAll"
-        },                {
-            "fqsen": "\\App\\Repository\\GalleryRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
-            "name": "getOrCreateQueryBuilder",
-            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
-            "url": "classes/App-Repository-GalleryRepository.html#method_getOrCreateQueryBuilder"
-        },                {
             "fqsen": "\\App\\Repository\\GalleryRepository\u003A\u003Asave\u0028\u0029",
             "name": "save",
             "summary": "Save\u0020entity.",
@@ -1180,6 +1170,16 @@ Search.appendIndex(
             "name": "delete",
             "summary": "Delete\u0020entity.",
             "url": "classes/App-Repository-GalleryRepository.html#method_delete"
+        },                {
+            "fqsen": "\\App\\Repository\\GalleryRepository\u003A\u003AqueryAll\u0028\u0029",
+            "name": "queryAll",
+            "summary": "Query\u0020all\u0020records.",
+            "url": "classes/App-Repository-GalleryRepository.html#method_queryAll"
+        },                {
+            "fqsen": "\\App\\Repository\\GalleryRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
+            "name": "getOrCreateQueryBuilder",
+            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
+            "url": "classes/App-Repository-GalleryRepository.html#method_getOrCreateQueryBuilder"
         },                {
             "fqsen": "\\App\\Repository\\GalleryRepository\u003A\u003APAGINATOR_ITEMS_PER_PAGE",
             "name": "PAGINATOR_ITEMS_PER_PAGE",
@@ -1196,16 +1196,6 @@ Search.appendIndex(
             "summary": "Constructor.",
             "url": "classes/App-Repository-PhotoRepository.html#method___construct"
         },                {
-            "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003AqueryAll\u0028\u0029",
-            "name": "queryAll",
-            "summary": "Query\u0020all\u0020records.",
-            "url": "classes/App-Repository-PhotoRepository.html#method_queryAll"
-        },                {
-            "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003AapplyFiltersToList\u0028\u0029",
-            "name": "applyFiltersToList",
-            "summary": "Apply\u0020filters\u0020to\u0020paginated\u0020list.",
-            "url": "classes/App-Repository-PhotoRepository.html#method_applyFiltersToList"
-        },                {
             "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003Asave\u0028\u0029",
             "name": "save",
             "summary": "Save\u0020entity.",
@@ -1216,15 +1206,25 @@ Search.appendIndex(
             "summary": "Delete\u0020entity.",
             "url": "classes/App-Repository-PhotoRepository.html#method_delete"
         },                {
+            "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003AcountByGallery\u0028\u0029",
+            "name": "countByGallery",
+            "summary": "Count\u0020photos\u0020by\u0020gallery.",
+            "url": "classes/App-Repository-PhotoRepository.html#method_countByGallery"
+        },                {
+            "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003AqueryAll\u0028\u0029",
+            "name": "queryAll",
+            "summary": "Query\u0020all\u0020records.",
+            "url": "classes/App-Repository-PhotoRepository.html#method_queryAll"
+        },                {
             "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
             "name": "getOrCreateQueryBuilder",
             "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
             "url": "classes/App-Repository-PhotoRepository.html#method_getOrCreateQueryBuilder"
         },                {
-            "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003AcountByGallery\u0028\u0029",
-            "name": "countByGallery",
-            "summary": "Count\u0020photos\u0020by\u0020gallery.",
-            "url": "classes/App-Repository-PhotoRepository.html#method_countByGallery"
+            "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003AapplyFiltersToList\u0028\u0029",
+            "name": "applyFiltersToList",
+            "summary": "Apply\u0020filters\u0020to\u0020paginated\u0020list.",
+            "url": "classes/App-Repository-PhotoRepository.html#method_applyFiltersToList"
         },                {
             "fqsen": "\\App\\Repository\\PhotoRepository\u003A\u003APAGINATOR_ITEMS_PER_PAGE",
             "name": "PAGINATOR_ITEMS_PER_PAGE",
@@ -1246,11 +1246,6 @@ Search.appendIndex(
             "summary": "Query\u0020all\u0020records.",
             "url": "classes/App-Repository-TagRepository.html#method_queryAll"
         },                {
-            "fqsen": "\\App\\Repository\\TagRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
-            "name": "getOrCreateQueryBuilder",
-            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
-            "url": "classes/App-Repository-TagRepository.html#method_getOrCreateQueryBuilder"
-        },                {
             "fqsen": "\\App\\Repository\\TagRepository\u003A\u003Asave\u0028\u0029",
             "name": "save",
             "summary": "Save\u0020entity.",
@@ -1260,6 +1255,11 @@ Search.appendIndex(
             "name": "delete",
             "summary": "Delete\u0020entity.",
             "url": "classes/App-Repository-TagRepository.html#method_delete"
+        },                {
+            "fqsen": "\\App\\Repository\\TagRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
+            "name": "getOrCreateQueryBuilder",
+            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
+            "url": "classes/App-Repository-TagRepository.html#method_getOrCreateQueryBuilder"
         },                {
             "fqsen": "\\App\\Repository\\TagRepository\u003A\u003APAGINATOR_ITEMS_PER_PAGE",
             "name": "PAGINATOR_ITEMS_PER_PAGE",
@@ -1281,11 +1281,6 @@ Search.appendIndex(
             "summary": "Query\u0020all\u0020records.",
             "url": "classes/App-Repository-UserRepository.html#method_queryAll"
         },                {
-            "fqsen": "\\App\\Repository\\UserRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
-            "name": "getOrCreateQueryBuilder",
-            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
-            "url": "classes/App-Repository-UserRepository.html#method_getOrCreateQueryBuilder"
-        },                {
             "fqsen": "\\App\\Repository\\UserRepository\u003A\u003Asave\u0028\u0029",
             "name": "save",
             "summary": "Save\u0020user.",
@@ -1305,6 +1300,11 @@ Search.appendIndex(
             "name": "upgradePassword",
             "summary": "Used\u0020to\u0020upgrade\u0020\u0028rehash\u0029\u0020the\u0020user\u0027s\u0020password\u0020automatically\u0020over\u0020time.",
             "url": "classes/App-Repository-UserRepository.html#method_upgradePassword"
+        },                {
+            "fqsen": "\\App\\Repository\\UserRepository\u003A\u003AgetOrCreateQueryBuilder\u0028\u0029",
+            "name": "getOrCreateQueryBuilder",
+            "summary": "Get\u0020or\u0020create\u0020new\u0020query\u0020builder.",
+            "url": "classes/App-Repository-UserRepository.html#method_getOrCreateQueryBuilder"
         },                {
             "fqsen": "\\App\\Repository\\UserRepository\u003A\u003APAGINATOR_ITEMS_PER_PAGE",
             "name": "PAGINATOR_ITEMS_PER_PAGE",
@@ -1360,6 +1360,11 @@ Search.appendIndex(
             "name": "urlGenerator",
             "summary": "URL\u0020Generator.",
             "url": "classes/App-Security-LoginFormAuthenticator.html#property_urlGenerator"
+        },                {
+            "fqsen": "\\App\\Security\\LoginFormAuthenticator\u003A\u003A\u0024userRepository",
+            "name": "userRepository",
+            "summary": "UserRepository.",
+            "url": "classes/App-Security-LoginFormAuthenticator.html#property_userRepository"
         },                {
             "fqsen": "\\App\\Security\\Voter\\CommentVoter",
             "name": "CommentVoter",

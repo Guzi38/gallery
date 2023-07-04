@@ -182,6 +182,13 @@
 </dt>
 <dd>URL Generator.</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/App-Security-LoginFormAuthenticator.html#property_userRepository">$userRepository</a>
+    <span>
+                        &nbsp;: <a href="classes/App-Repository-UserRepository.html"><abbr title="\App\Repository\UserRepository">UserRepository</abbr></a>            </span>
+</dt>
+<dd>UserRepository.</dd>
+
                 <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/App-Security-LoginFormAuthenticator.html#method___construct">__construct()</a>
     <span>
@@ -357,6 +364,40 @@
     
 
 </article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_userRepository">
+        $userRepository
+        <a href="classes/App-Security-LoginFormAuthenticator.html#property_userRepository" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Security/LoginFormAuthenticator.php"><a href="files/src-security-loginformauthenticator.html"><abbr title="src/Security/LoginFormAuthenticator.php">LoginFormAuthenticator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">52</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">UserRepository.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><a href="classes/App-Repository-UserRepository.html"><abbr title="\App\Repository\UserRepository">UserRepository</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$userRepository</span>
+    </code>
+
+    
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
             </section>
 
             <section class="phpdocumentor-methods">
@@ -377,7 +418,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Security/LoginFormAuthenticator.php"><a href="files/src-security-loginformauthenticator.html"><abbr title="src/Security/LoginFormAuthenticator.php">LoginFormAuthenticator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
+    <span class="phpdocumentor-element-found-in__line">60</span>
 
     </aside>
 
@@ -395,7 +436,8 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/App-Repository-UserRepository.html"><abbr title="\App\Repository\UserRepository">UserRepository</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
+                    <section class="phpdocumentor-description"><p>UserRepository</p>
+</section>
 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
@@ -403,7 +445,7 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\Routing\Generator\UrlGeneratorInterface">UrlGeneratorInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>Url generator</p>
+                    <section class="phpdocumentor-description"><p>URL Generator</p>
 </section>
 
             </dd>
@@ -430,7 +472,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Security/LoginFormAuthenticator.php"><a href="files/src-security-loginformauthenticator.html"><abbr title="src/Security/LoginFormAuthenticator.php">LoginFormAuthenticator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
+    <span class="phpdocumentor-element-found-in__line">98</span>
 
     </aside>
 
@@ -440,11 +482,11 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">authenticate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\Security\Http\Authenticator\Passport\Passport">Passport</abbr></span></code>
 
-        <section class="phpdocumentor-description"><p>The passport contains the user, credentials and any additional information
+        <section class="phpdocumentor-description"><p>The passport contains the user, credentials, and any additional information
 that has to be checked by the Symfony Security system. For example, a login
 form authenticator will probably return a passport containing the user, the
-presented password and the CSRF token value.</p>
-<p>You may throw any AuthenticationException in this method in case of error (e.g.
+presented password, and the CSRF token value.</p>
+<p>You may throw any AuthenticationException in this method in case of an error (e.g.,
 a UserNotFoundException when the user cannot be found).</p>
 </section>
 
@@ -498,7 +540,7 @@ a UserNotFoundException when the user cannot be found).</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Security/LoginFormAuthenticator.php"><a href="files/src-security-loginformauthenticator.html"><abbr title="src/Security/LoginFormAuthenticator.php">LoginFormAuthenticator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">123</span>
+    <span class="phpdocumentor-element-found-in__line">132</span>
 
     </aside>
 
@@ -582,7 +624,7 @@ will be authenticated. This makes sense, for example, with an API.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Security/LoginFormAuthenticator.php"><a href="files/src-security-loginformauthenticator.html"><abbr title="src/Security/LoginFormAuthenticator.php">LoginFormAuthenticator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">68</span>
+    <span class="phpdocumentor-element-found-in__line">75</span>
 
     </aside>
 
@@ -631,7 +673,7 @@ will be authenticated. This makes sense, for example, with an API.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Security/LoginFormAuthenticator.php"><a href="files/src-security-loginformauthenticator.html"><abbr title="src/Security/LoginFormAuthenticator.php">LoginFormAuthenticator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">139</span>
+    <span class="phpdocumentor-element-found-in__line">148</span>
 
     </aside>
 
